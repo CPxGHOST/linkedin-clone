@@ -1,0 +1,21 @@
+.header{
+    background-color: white;
+    z-index: 100;
+    border-bottom: rgba(0,0,0,0.08);
+    position: fixed;
+    left: 0;
+    padding: 0 24px;
+    top: 0;
+    width: 100vw;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1128px;
+}
+.logo{
+    margin-right: 8px;
+    font-size: 0px;
+}

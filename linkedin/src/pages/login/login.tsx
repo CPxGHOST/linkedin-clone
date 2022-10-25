@@ -21,11 +21,11 @@ export const Login = (props: any) => {
       <section className={styles['main-section']}>
         <div className={styles.hero}>
           <h1>Welcome to your professional community</h1>
-          <img src={loginHero}/> 
+          <img src={loginHero} alt=""/> 
         </div>
         <div className={styles.form}>
             <button className={styles['google-button']}>
-                <img src={googleButton}/>
+                <img src={googleButton} alt=""/>
                 Sign in with Google
             </button>
         </div>
