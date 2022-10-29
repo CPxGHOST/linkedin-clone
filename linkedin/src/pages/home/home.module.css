@@ -1,0 +1,29 @@
+.container{
+    padding-top: 50px;
+    max-width: 100%;
+
+}
+.heading-section{
+    min-height: 50px;
+    padding: 16px 0;
+    box-sizing: content-box;
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.heading-section>h5{
+    color: #0a66c2;
+    font-size: 14px;
+}
+.heading-section a{
+  font-weight: 700;
+}
+.heading-section p{
+    font-size: 14px;
+}
+@media(max-width: 768px){
+    .heading-section{
+        flex-direction: column;
+    }
+}
